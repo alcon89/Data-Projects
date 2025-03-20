@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file_path = "FAOSTAT_data_en_2-20-2024.csv"
+file_url = "https://raw.githubusercontent.com/alcon89/Data-Projects/main/FAOSTAT_data_en_2-20-2024"
 df = pd.read_csv(file_path)
 
 #streamlit Layout
