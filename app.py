@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file_url = "https://raw.githubusercontent.com/alcon89/Data-Projects/main/FAOSTAT_data_en_2-20-2024"
-df = pd.read_csv(file_path)
-
 #streamlit Layout
 st.set_page_config(layout="wide")
+
+file_url = "https://raw.githubusercontent.com/alcon89/Data-Projects/main/FAOSTAT_data_en_2-20-2024"
+df = pd.read_csv(file_url)
 
 # Streamlit App Title
 st.title("Global Agribusiness Expansion Data")
